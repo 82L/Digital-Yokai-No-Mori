@@ -1,0 +1,18 @@
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\bin\Debug\Ihm Winform VB.exe.config
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\bin\Debug\Ihm Winform VB.exe
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\bin\Debug\Ihm Winform VB.pdb
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\bin\Debug\Ihm Winform VB.xml
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\bin\Debug\Bibliotheque.dll
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\bin\Debug\Bibliotheque.pdb
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm Winform VB.vbprojResolveAssemblyReference.cache
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm_Winform_VB.Form1.resources
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm_Winform_VB.Resources.resources
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm Winform VB.vbproj.GenerateResource.Cache
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm Winform VB.exe
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm Winform VB.xml
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm Winform VB.pdb
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Ihm Winform VB\obj\Debug\Ihm_Winform_VB.Tapie.resources
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no mori\Ihm Winform VB\bin\Debug\Ihm Winform VB.exe.config
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no mori\Ihm Winform VB\obj\Debug\Ihm Winform VB.exe
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no mori\Ihm Winform VB\obj\Debug\Ihm Winform VB.xml
+C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no mori\Ihm Winform VB\obj\Debug\Ihm Winform VB.pdb
