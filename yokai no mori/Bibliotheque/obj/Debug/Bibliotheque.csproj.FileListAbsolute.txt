@@ -1,5 +1,0 @@
-C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\bin\Debug\Bibliotheque.dll
-C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\bin\Debug\Bibliotheque.pdb
-C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\obj\Debug\Bibliotheque.csprojResolveAssemblyReference.cache
-C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\obj\Debug\Bibliotheque.dll
-C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\obj\Debug\Bibliotheque.pdb
