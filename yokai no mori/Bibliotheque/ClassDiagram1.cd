@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bibliotheque.kodama" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Bibliotheque.yokai" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="2.312" />
+        <Point X="5.75" Y="2.593" />
+        <Point X="6.5" Y="2.593" />
+        <Point X="6.5" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>kodama.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.Plateau" Collapsed="true">
+    <Position X="2.5" Y="0.75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQIAAQAAEgAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Plateau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.tanuki" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tanuki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.yokai" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIIAQAAAgAEAAACAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>yokai.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.koropokkuru" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>koropokkuru.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.kitsune" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kitsune.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bibliotheque.joueur" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAEAAAAAAAEAAAAAhAgAAAAAA=</HashCode>
+      <FileName>joueur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
