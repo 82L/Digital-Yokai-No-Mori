@@ -27,8 +27,8 @@ Public Class Tapie
             J2 = "Dickheadbis"
         End If
         Jeu = New Plateau(J1, J2) 'création du plateau de jeu
-        Label1.Text = Jeu.joueur1.Nomjoueur
-        Label2.Text = Jeu.joueur2.Nomjoueur
+        Label1.Text = Jeu.Joueur1.Nomjoueur
+        Label2.Text = Jeu.Joueur2.Nomjoueur
         PictureBox1.AllowDrop = True 'initialisation allowdrop
         PictureBox2.AllowDrop = True
         PictureBox3.AllowDrop = True
@@ -56,17 +56,17 @@ Public Class Tapie
         Banque2(5) = PictureBox19
         label5change()
         If (Jeu.tour = 1) Then 'msgbox pour aider à voir qui commence
-            MsgBox("C'est au tour de " + Jeu.joueur1.Nomjoueur)
+            MsgBox("C'est au tour de " + Jeu.Joueur1.Nomjoueur)
         Else
-            MsgBox("C'est au tour de " + Jeu.joueur2.Nomjoueur)
+            MsgBox("C'est au tour de " + Jeu.Joueur2.Nomjoueur)
         End If
 
     End Sub
     Private Sub label5change() 'mise à jour label 5 informant déplacement
         If (Jeu.tour = 1) Then
-            Label5.Text = ("C'est au tour de " + Jeu.joueur1.Nomjoueur)
+            Label5.Text = ("C'est au tour de " + Jeu.Joueur1.Nomjoueur)
         Else
-            Label5.Text = ("C'est au tour de " + Jeu.joueur2.Nomjoueur)
+            Label5.Text = ("C'est au tour de " + Jeu.Joueur2.Nomjoueur)
         End If
     End Sub
 
@@ -263,33 +263,33 @@ Public Class Tapie
     End Sub
     Private Sub PicturBox1_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox1.DragDrop
         If (placutage = True) Then 'si c'est un déplacement
-            I = Jeu.validdeplace(cx, cy, 3, 2) 'fonction validdeplace
+            I = Jeu.Validdeplace(cx, cy, 3, 2) 'fonction validdeplace
             x = 3 'mis à jour coordonnées arrivé
             y = 2
         ElseIf (placutage = False) Then 'si c'est un parachutage
-            I = Jeu.parachutage(cb, 3, 2) 'fonction de parachutage
+            I = Jeu.Parachutage(cb, 3, 2) 'fonction de parachutage
         End If
         PictureBoxChange(sender, e) ' tronc commmun, idem pour les autres
 
     End Sub
     Private Sub PicturBox2_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox2.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 3, 1)
+            I = Jeu.Validdeplace(cx, cy, 3, 1)
             x = 3
             y = 1
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 3, 1)
+            I = Jeu.Parachutage(cb, 3, 1)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox3_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox3.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 3, 0)
+            I = Jeu.Validdeplace(cx, cy, 3, 0)
             x = 3
             y = 0
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 3, 0)
+            I = Jeu.Parachutage(cb, 3, 0)
         End If
         PictureBoxChange(sender, e)
 
@@ -297,33 +297,33 @@ Public Class Tapie
 
     Private Sub PicturBox4_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox4.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 2, 2)
+            I = Jeu.Validdeplace(cx, cy, 2, 2)
             x = 2
             y = 2
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 2, 2)
+            I = Jeu.Parachutage(cb, 2, 2)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox5_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox5.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 2, 1)
+            I = Jeu.Validdeplace(cx, cy, 2, 1)
             x = 2
             y = 1
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 2, 1)
+            I = Jeu.Parachutage(cb, 2, 1)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox6_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox6.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 2, 0)
+            I = Jeu.Validdeplace(cx, cy, 2, 0)
             x = 2
             y = 0
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 2, 0)
+            I = Jeu.Parachutage(cb, 2, 0)
         End If
         PictureBoxChange(sender, e)
 
@@ -331,66 +331,66 @@ Public Class Tapie
 
     Private Sub PicturBox7_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox7.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 1, 2)
+            I = Jeu.Validdeplace(cx, cy, 1, 2)
             x = 1
             y = 2
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 1, 2)
+            I = Jeu.Parachutage(cb, 1, 2)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox8_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox8.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 1, 1)
+            I = Jeu.Validdeplace(cx, cy, 1, 1)
             x = 1
             y = 1
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 1, 1)
+            I = Jeu.Parachutage(cb, 1, 1)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox9_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox9.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 1, 0)
+            I = Jeu.Validdeplace(cx, cy, 1, 0)
             x = 1
             y = 0
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 1, 0)
+            I = Jeu.Parachutage(cb, 1, 0)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox10_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox10.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 0, 2)
+            I = Jeu.Validdeplace(cx, cy, 0, 2)
             x = 0
             y = 2
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 0, 2)
+            I = Jeu.Parachutage(cb, 0, 2)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox11_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox11.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 0, 1)
+            I = Jeu.Validdeplace(cx, cy, 0, 1)
             x = 0
             y = 1
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 0, 1)
+            I = Jeu.Parachutage(cb, 0, 1)
         End If
         PictureBoxChange(sender, e)
 
     End Sub
     Private Sub PicturBox12_DragDrop(sender As Object, e As DragEventArgs) Handles PictureBox12.DragDrop
         If (placutage = True) Then
-            I = Jeu.validdeplace(cx, cy, 0, 0)
+            I = Jeu.Validdeplace(cx, cy, 0, 0)
             x = 0
             y = 0
         ElseIf (placutage = False) Then
-            I = Jeu.parachutage(cb, 0, 0)
+            I = Jeu.Parachutage(cb, 0, 0)
         End If
         PictureBoxChange(sender, e)
 
@@ -417,9 +417,9 @@ Public Class Tapie
 
             If (I = 2) Then 'si c'est la fin du jeu et que l'un à gagné
                 If (Jeu.tour = 2) Then 'tour inversé car changement de tour à la fin
-                    MsgBox(Jeu.joueur1.Nomjoueur + " a gagné, Fin du jeu")
+                    MsgBox(Jeu.Joueur1.Nomjoueur + " a gagné, Fin du jeu")
                 ElseIf (Jeu.tour = 1) Then
-                    MsgBox(Jeu.joueur2.Nomjoueur + " a gagné, Fin du jeu")
+                    MsgBox(Jeu.Joueur2.Nomjoueur + " a gagné, Fin du jeu")
                 End If
                 Close()
             ElseIf (I = 3) Then ' si égalité car irrésolution
@@ -439,7 +439,7 @@ Public Class Tapie
                     test = True
                     Banque1(i).Image = CType(sender, PictureBox).Image
                     Banque1(i).Image.RotateFlip(RotateFlipType.Rotate180FlipNone)
-                    If (Jeu.joueur1.banque(i).numb = 2) Then 'si on a un kodama, on s'assure qu'il ne soit plus samurai
+                    If (Jeu.Joueur1.banque(i).numb = 2) Then 'si on a un kodama, on s'assure qu'il ne soit plus samurai
                         Banque1(i).Image = CType(My.Resources.kodama, Image)
                     End If
                 Else
@@ -452,7 +452,7 @@ Public Class Tapie
                     test = True
                     Banque2(i).Image = CType(sender, PictureBox).Image
                     Banque2(i).Image.RotateFlip(RotateFlipType.Rotate180FlipNone)
-                    If (Jeu.joueur2.banque(i).numb = 2) Then
+                    If (Jeu.Joueur2.banque(i).numb = 2) Then
                         Banque2(i).Image = CType(My.Resources.kodamaInverse, Image)
                     End If
                 Else

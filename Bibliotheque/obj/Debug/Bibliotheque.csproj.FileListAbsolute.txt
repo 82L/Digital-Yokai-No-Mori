@@ -3,3 +3,9 @@ C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliothe
 C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\obj\Debug\Bibliotheque.csprojResolveAssemblyReference.cache
 C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\obj\Debug\Bibliotheque.dll
 C:\Users\Pierre-Baptiste\Documents\1ère année DUT\C#\yokai no demory\Bibliotheque\obj\Debug\Bibliotheque.pdb
+C:\Users\pblef\Source\Repos\Digital-Yokai-No-Mori\Bibliotheque\bin\Debug\Bibliotheque.dll
+C:\Users\pblef\Source\Repos\Digital-Yokai-No-Mori\Bibliotheque\bin\Debug\Bibliotheque.pdb
+C:\Users\pblef\Source\Repos\Digital-Yokai-No-Mori\Bibliotheque\obj\Debug\Bibliotheque.csprojAssemblyReference.cache
+C:\Users\pblef\Source\Repos\Digital-Yokai-No-Mori\Bibliotheque\obj\Debug\Bibliotheque.csproj.CoreCompileInputs.cache
+C:\Users\pblef\Source\Repos\Digital-Yokai-No-Mori\Bibliotheque\obj\Debug\Bibliotheque.dll
+C:\Users\pblef\Source\Repos\Digital-Yokai-No-Mori\Bibliotheque\obj\Debug\Bibliotheque.pdb
